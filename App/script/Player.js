@@ -7,10 +7,6 @@ class Player {
         this.rotate = 0;
     }
 
-    getCoordinates() {
-        return { x: this.x, y: this.y};
-    }
-
     move(x, y, rotate) {
         this.x += x;
         this.y += y;

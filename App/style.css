@@ -15,6 +15,7 @@ body {
 
 div#score {
     position: fixed;
+    font-size: 1.2em;
     top: 25%; left: 50%;
     transform: translateX(-50%);
     font-weight: bold;
@@ -45,8 +46,12 @@ div#command > button {
     border: 3px solid var(--firtColor);
 }
 
-div#command > button:active {
+div#command > button:hover {
     cursor: pointer;
+}
+
+div#command > button:active, 
+div#command > button.active {
     color: var(--secondColor);
     background-color: var(--firtColor);
 }
