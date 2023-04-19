@@ -1,4 +1,5 @@
 {
     "firstColor": "white",
-    "secondColor": "black"
+    "secondColor": "black",
+    "speed": 1
 }

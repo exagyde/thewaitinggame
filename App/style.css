@@ -1,5 +1,5 @@
 :root {
-    --firtColor: white;
+    --firstColor: white;
     --secondColor: black;
 }
 
@@ -10,7 +10,7 @@ body {
     -webkit-user-select: none;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    color: var(--firtColor);
+    color: var(--firstColor);
 }
 
 div#score {
@@ -37,13 +37,13 @@ div#command {
 
 div#command > button {
     all: unset;
-    color: var(--firtColor);
+    color: var(--firstColor);
     background-color: var(--secondColor);
     font-weight: bold;
     font-size: 1.2em;
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
-    border: 3px solid var(--firtColor);
+    border: 3px solid var(--firstColor);
 }
 
 div#command > button:hover {
@@ -53,7 +53,7 @@ div#command > button:hover {
 div#command > button:active, 
 div#command > button.active {
     color: var(--secondColor);
-    background-color: var(--firtColor);
+    background-color: var(--firstColor);
 }
 
 div#command > small {
